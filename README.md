@@ -1,6 +1,11 @@
 # MVP
 
-An approach to develop UIs using the [Model-View-Presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) Pattern more comfortable under Vaadin 14. Programming MVP in Vaadin was already possible before, but extending the [Presenter](https://github.com/appreciated/mvp-flow/blob/master/src/main/java/com/github/appreciated/mvp/Presenter.java) class gives the user a more predefined strucure to rely on.
+An approach to develop UIs using the [Model-View-Presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) Pattern more comfortable under Vaadin 14. Whilst programming MVP under Vaadin was already possible before, this addons provides a predefined class [Presenter](https://github.com/appreciated/mvp-flow/blob/master/src/main/java/com/github/appreciated/mvp/Presenter.java) to give the user a more strict strucure to rely on.
+
+Note:
+Using this addon will not make you code per se better, even if this is being used the user can do things the wrong way. 
+If you're new to the MVP pattern please make sure to give it a good read.
+This could also be used to programm [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) dependending how you bind the data to the model. 
 
 ## Development instructions
 
