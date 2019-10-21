@@ -1,6 +1,6 @@
 # MVP
 
-An approach to develop UIs using the [Model-View-Presenter](https://de.wikipedia.org/wiki/Model_View_Presenter) Pattern comfortable under Vaadin 14 
+An approach to develop UIs using the [Model-View-Presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) Pattern comfortable under Vaadin 14 
 
 ## Development instructions
 
