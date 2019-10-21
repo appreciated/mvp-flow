@@ -27,10 +27,16 @@ import java.lang.reflect.Type;
  */
 
 /**
+ * Instead of adding the @{@link com.vaadin.flow.router.Route} Annotations to the Views, they should be added to the
+ * {@link Presenter} class, the View should be the Wildcard of the the {@link Presenter}. Since the {@link Presenter}
+ * is derived from {@link Composite} make sure to give it's documentation a read, it has some restrictions. The user is
+ * not required to instantiate the model and neither the view, this will be done automatically by {@link Presenter}
+ * respectively {@link Composite}. The Model can be instantiated using the custom constructor.
+ * <p>
  * The MVP Pattern consists of three "roles"
- * Model        - providing the data
- * View         - displays the data
- * Presenter    - communicator between both
+ * Model        - providing
+ * View         - displaying
+ * Presenter    - communicator
  * <p>
  * In Vaadin a "View" are usually represented by classes that are derived from {@link Component} (but it can be argued
  * that a {@link Component} is not always a view). For the sake of simplicity this is being ignored.
