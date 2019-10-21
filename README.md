@@ -1,6 +1,6 @@
-# Paper Slider
+# MVP
 
-Vaadin 14 Java integration of @polymer/paper-slider
+An approach to develop UIs using the [Model-View-Presenter](https://de.wikipedia.org/wiki/Model_View_Presenter) Pattern under Vaadin 14 
 
 ## Development instructions
 
