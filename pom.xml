@@ -4,7 +4,7 @@
     <groupId>com.github.appreciated</groupId>
     <artifactId>mvp-flow</artifactId>
     <version>1.0.0</version>
-    <name>mvp</name>
+    <name>MVP for Flow</name>
     <description>Component for a simple MVP pattern template for the Vaadin Platform </description>
 
     <properties>
